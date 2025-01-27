@@ -17,3 +17,5 @@ router
     .all('/api/users/:id', (ctx, next) => {
         // ...
     });
+
+module.exports = router;
